@@ -65,7 +65,7 @@ def delete(product_id:int):
             "message":"Product deleted succesfully","product":deleted_product
             }
     return {
-        "error":"Product not found"
+        "error":"Product not found for this ID"
     }
 ##POSTMAN
 #How to validate data.-DTOS(data transfer objects)
